@@ -32,7 +32,7 @@ void ShowStack(Stack<T,MAXSIZE> &stack){
 }
 
 int main(){
-	Stack<int,SIZE> stack;
+	Stack<> stack; //use default
 	for (int i=10 ; i>0 ; --i){
 		stack.push(i);
 	}
